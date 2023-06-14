@@ -1,0 +1,172 @@
+@font-face {
+    font-family:"AntonioZigman";
+    src: url("AntonioZigman-Regular.ttf");
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #798C83;
+}
+container{
+    width: 100%;
+ min-width: 50%;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 40px;
+    width: 100%;
+    position:static;
+   
+    
+    
+}
+h1{
+    position: absolute;;
+    top: -1%;
+    right: 1%;
+    font-size: 25px;
+     font-family: "AntonioZigman";
+    
+    
+}
+nav{
+
+    position: sticky;
+    top: 0px;
+    align-content: center;
+    width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+    align-content: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+   
+   
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+    font-family: "naslov";
+    font-weight: normal;
+
+    
+    
+}
+.active {
+  background-color: #4CAF50;
+}
+#slika1{
+width: 100%;
+    height: 1;
+    position: static;
+
+}
+li:first-child{
+    margin-left: 38%;
+}
+#logo{
+    width: 60px;
+   position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: -0px;
+    margin-top: -12px;
+}
+@font-face {
+    font-family:"naslovi";
+    src: url("desiras.otf");
+}
+@font-face {
+    font-family:"naslov";
+    src: url("aliseo.otf");
+}
+h2{
+    font-family: naslovi;
+    color: #40591B;
+}
+.collection2{
+    width: 24.5%;
+    margin-left: 0.2%;
+}
+
+.collection{
+    width: 24.5%;
+    margin-left: 0.2%;
+
+}
+
+#c2{
+    text-align: center;
+}
+#c3{
+    text-align:center;
+    
+}
+h2{
+    font-family: naslov;
+    text-align: center;
+}
+h3{
+    font-family: naslovi;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+    text-align:center;
+    margin-left:30%;
+     margin-right:30%;
+    font-size: 17px;
+}
+hr{
+    width: 25%;
+    
+    border: 1px #40591B solid;
+    
+}
+#pss{
+    width: 100%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+th{
+    background-color: #9A9B96;
+    font-family: naslovi;
+}
+#specs{
+    background-color: #9A9B96;
+    font-family: naslovi;
+}
+footer{
+    text-align: center;
+    font-family: naslov;
+    background-color: #9A9B96;
+    padding: 20px;
+
+}
